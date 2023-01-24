@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-6"
+version = "0.1.0"
+description = ""
+authors = ["Yaroslav <svyatikua@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_6"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker = "^16.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
